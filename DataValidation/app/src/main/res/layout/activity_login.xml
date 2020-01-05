@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient4"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/email_round"
+        android:layout_width="348dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/round"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/password_round"
+        android:layout_width="348dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="372dp"
+        android:background="@drawable/round"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+
+    <ImageView
+        android:id="@+id/pass_icon"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginRight="318dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pass" />
+
+
+
+    <ImageView
+        android:id="@+id/mail_icon"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginRight="318dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mail" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="109dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="redirectHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_icon" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="242dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="62dp"
+        android:ems="10"
+
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="68dp"
+
+        android:fontFamily="casual"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="242dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="68dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:fontFamily="casual"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:fontFamily="casual"
+        android:text="Let's Go"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
